@@ -6,14 +6,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200vh;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    height: 20vh;
-    margin: 10px;
+    height: 10vh;
+    margin-top: 1vh;
+    margin-left: 2vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: stretch;
 }
@@ -23,25 +23,22 @@
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 10vh;
+    height: 10vh;
 }
 
 .icon {
-    height: 60px;
+    width: 4vw;
 }
 
 .body {
     align-items: center;
     justify-content: center;
-    height: 20vh;
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
 }
 
 .mainText {
-    margin: 20px;
     align-items: center;
     max-width: 70vw;
 }
@@ -52,9 +49,10 @@
 
 .servicos {
     display: flex;
-    height: 50vh;
+    height: 20vh;
     flex-direction: row;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
     width: 80vw;
     background-color: white;
     border-radius: 10px;
@@ -73,34 +71,95 @@
 .row {
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .column {
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .bodyText {
-    
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    width: 80vw;
+    align-items: center;
+}
+
+.rowCard {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    width: 60vw;
+    align-items: center;
+    padding: 2vw;
+}
+
+.portifolioImg {
+    min-width: 10vw;
+    max-width: 15vw;
+    margin-right: 2vw;
+}
+
+.form {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    width: 80vw;
+    align-items: center;
+    padding: 3vw;
+}
+
+.footer {
+    min-height: 10vh;
+    background-color: white;
+    margin-top: 3vh;
 }
 
 h1 {
     color: white;
-    font-size: 10vh;
+    font-size: 8vh;
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
 
 h2 {
     color: white;
-    font-size: 5vh;
+    font-size: 4vh;
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
 
 h3 {
     color: black;
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
 
+h4 {
+    color: black;
+    font-size: 2.5vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 1vw;
+}
