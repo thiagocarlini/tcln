@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.background {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(30,30,139,1) 87%, rgba(98,0,255,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 20vh;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: stretch;
+}
+
+.title {
+    color: whitesmoke;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.body {
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.mainText {
+    margin: 20px;
+    align-items: center;
+    max-width: 70vw;
+}
+
+.callButton {
+    height: 10vh;
+}
+
+h1 {
+    color: white;
+    font-size: 10vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 5vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
