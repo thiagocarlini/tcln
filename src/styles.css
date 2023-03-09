@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 .background {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(30,30,139,1) 87%, rgba(98,0,255,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(21,21,21,1) 50%, rgba(116,116,116,1) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
 }
@@ -27,13 +27,17 @@
     height: 60px;
 }
 
+.icon {
+    height: 60px;
+}
+
 .body {
     align-items: center;
     justify-content: center;
     height: 20vh;
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 20vh;
 }
 
 .mainText {
@@ -46,6 +50,39 @@
     height: 10vh;
 }
 
+.servicos {
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    margin-top: 10vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+
+.servico {
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    width: 20vw;
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bodyText {
+    
+}
+
 h1 {
     color: white;
     font-size: 10vh;
@@ -56,6 +93,13 @@ h1 {
 h2 {
     color: white;
     font-size: 5vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 2vh;
     font-family: 'Nunito', sans-serif;
     text-align: center;
 }
