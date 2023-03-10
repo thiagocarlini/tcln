@@ -2,7 +2,7 @@
 
 .background {
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(21,21,21,1) 50%, rgba(116,116,116,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,10,10,1) 60%, rgba(89,3,3,1) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

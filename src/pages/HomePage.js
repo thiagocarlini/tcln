@@ -51,6 +51,10 @@ export default function HomePage() {
             <h2>Vantagens</h2>
             <div className='row'>
               <div className='card'>
+                <h3>Sem No/Low Code</h3>
+                <h4>Não utilizamos ferramentas de No/Low Code, permitindo a criar softwares verdadeiramente personalizados e adaptados para o seu negócio</h4>
+              </div>
+              <div className='card'>
                 <h3>Preço Fixo</h3>
                 <h4>Saiba exatamente o valor do seu projeto antes de fechar o negócio</h4>
               </div>
@@ -71,6 +75,11 @@ export default function HomePage() {
                 <img src={tja} className='portifolioImg'/>
                 <h4>Sistema interno para controle e acompanhamento de projetos</h4>
               </div>
+            </div>
+          </div>
+          <div className='bodyText'>
+            <div className='callButton'>
+              <Button onClick={() => navigate('solicitar-orcamento')} sx={{color:'#000', backgroundColor:'#FFF'}} variant='filled'>Entre em contato</Button>
             </div>
           </div>
         </div>

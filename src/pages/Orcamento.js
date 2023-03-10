@@ -62,7 +62,7 @@ export default function Orcamento() {
             </div>
             <div className='mainText'>
                 <h2>Ou entre em contato conosco</h2>
-                <h3>contato@tcln.io</h3>
+                <h2>contato@tcln.io</h2>
             </div>
             <div className='footer'>
 
